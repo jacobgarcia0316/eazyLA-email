@@ -1,1 +1,1 @@
-# easy-email
+# EazyLA-email
