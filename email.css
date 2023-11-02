@@ -1,0 +1,469 @@
+body {
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+.email-container {
+    margin: auto;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    height: 3220px;
+    width: 430px;
+}
+
+.logo {
+    margin-left: 134px;
+    margin-top: 55px;
+    margin-bottom: 18px;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+
+.top-menu-item {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.top-menu-item:hover  {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+.sale-box {
+    margin: auto;
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sale-box1, .sale-box2 {
+    height: 50px;
+    width: 176px;
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-box1:hover, .sale-box2:hover {
+    background-color: rgb(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.text-1 {
+    color: white;
+    width: 98%;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+}
+
+.text-2 {
+    color: white;
+    font-size: 10px;
+    margin-top: -15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.summer-sale-box {
+    height: 105px;
+    width: 380px;
+    background-color: #6e96bf;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.summer-sale-box:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.summer-t1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.summer-t2{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.summer-t3 {
+    color: white;
+    font-weight: lighter;
+    font-size: 10px;
+    margin: 0;
+}
+
+.banner {
+    height: 633px;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+
+.banner-box {
+    position: absolute;
+    height: 40px;
+    width: 175px;
+    background-color: rgb(255, 255, 255, 0.9);
+
+    margin-top: -80px;
+    margin-left: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.banner-box:hover {
+    background-color: rgb(255, 255, 255, 0.7);
+    cursor: pointer;
+
+}
+
+.banner-text {
+    color: #56635A;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.by-size {
+    height: fit-content;
+    width: 380px;
+    margin: auto;
+}
+
+.by-size-header {
+    color: #73665e;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.size-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.size-box {
+    width: 110px;
+    height: 37px;
+    background-color: #73665e;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-box:hover {
+    background-color: rgb(115, 102, 94, 0.7);
+    cursor: pointer;
+}
+
+.box-text {
+    color: white;
+    font-weight: bold;
+}
+
+.best-seller {
+    height: 1050px;
+    width: 380px;
+    margin: auto;
+    background-color: rgb(110, 150, 191, 0.1);
+    margin-bottom: 36px;
+}
+
+.best-header {
+    font-weight: bold;
+    font-size: 36px;
+    width: 235px;
+    text-transform: uppercase;
+    color: #73665e;
+    text-align: center;
+    margin: auto;
+}
+
+.best-img {
+    height: 255px;
+    width: 223px;
+    z-index: 0;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.hat-btn {
+    position: absolute;
+    height: 42px;
+    width: 149px;
+    border: 2px solid #8F8275;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    z-index: 1;
+
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.best-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8F8275;
+}
+
+.hats {
+    text-align: left;
+}
+
+.shirts {
+    text-align: right;
+}
+
+.shirts-btn {
+    position: absolute;
+    height: 42px;
+    width: 149px;
+    border: 2px solid #8F8275;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    z-index: 1;
+
+    margin-top: -30px;
+    margin-left: 200px;
+}
+
+.pants-btn {
+    position: absolute;
+    height: 42px;
+    width: 149px;
+    border: 2px solid #8F8275;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    z-index: 1;
+
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.all-btn {
+    height: 45px;
+    width: 155px;
+    border: 2px solid #8F8275;
+    background-color: white;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.pants-btn:hover, .shirts-btn:hover, .hat-btn:hover, .all-btn:hover {
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.all-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8F8275;
+}
+
+.bottom {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 380px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-img {
+    height: 125px;
+    width: 125px;
+}
+
+.bottom-img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.vip {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailinglist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-text1 {
+    width: 70%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.bottom-text2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 14px;
+    width: 80%;
+}
+
+.footer {
+    background-color: black;
+    height: 450px;
+    width: 430px;
+    color: white;
+}
+
+.footer-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.links {
+    margin: auto;
+    width: 380px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+.link {
+    height: 25px;
+    width: 25px;
+}
+
+.link:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.unsub:hover {
+    cursor: pointer;
+}
+
+.para1 {
+    font-weight: lighter;
+    width: 96%;
+    margin: auto;
+    margin-bottom: 18px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.para2 {
+    font-weight: lighter;
+    width: 96%;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact {
+    display: block;
+    font-weight: lighter;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.footer-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.email, .phone {
+    color: white;
+}
+
+.email:hover, .phone:hover {
+    cursor: pointer;
+}
